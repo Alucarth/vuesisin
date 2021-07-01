@@ -28,7 +28,7 @@ export default defineComponent({
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
         datasets: [
           {
-            label: 'Html Template',
+            label: 'Costo',
             barPercentage: 0.5,
             barThickness: 6,
             maxBarThickness: 8,
@@ -37,7 +37,7 @@ export default defineComponent({
             backgroundColor: '#203f90'
           },
           {
-            label: 'VueJs Template',
+            label: 'Utilidad',
             barPercentage: 0.5,
             barThickness: 6,
             maxBarThickness: 8,

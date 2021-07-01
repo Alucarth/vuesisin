@@ -36,31 +36,31 @@ const state = () => {
       //     }
       //   ]
       // },
-      // {
-      //   icon: 'InboxIcon',
-      //   pageName: 'side-menu-inbox',
-      //   title: 'Inbox'
-      // },
-      // {
-      //   icon: 'HardDriveIcon',
-      //   pageName: 'side-menu-file-manager',
-      //   title: 'File Manager'
-      // },
+      {
+        icon: 'DollarSignIcon',
+        pageName: 'side-menu-inbox',
+        title: 'Recursos'
+      },
+      {
+        icon: 'FigmaIcon',
+        pageName: 'side-menu-file-manager',
+        title: 'Clasificadores'
+      },
       // {
       //   icon: 'CreditCardIcon',
       //   pageName: 'side-menu-point-of-sale',
       //   title: 'Point of Sale'
       // },
-      // {
-      //   icon: 'MessageSquareIcon',
-      //   pageName: 'side-menu-chat',
-      //   title: 'Chat'
-      // },
-      // {
-      //   icon: 'FileTextIcon',
-      //   pageName: 'side-menu-post',
-      //   title: 'Post'
-      // },
+      {
+        icon: 'FileIcon',
+        pageName: 'side-menu-chat',
+        title: 'Dictamenes'
+      },
+      {
+        icon: 'PrinterIcon',
+        pageName: 'side-menu-post',
+        title: 'Reportes'
+      }
       // {
       //   icon: 'CalendarIcon',
       //   pageName: 'side-menu-calendar',
@@ -260,98 +260,97 @@ const state = () => {
       //     }
       //   ]
       // },
-      'devider',
-      {
-        icon: 'InboxIcon',
-        pageName: 'side-menu-components',
-        title: 'Components',
-        subMenu: [
-          {
-            icon: '',
-            pageName: 'side-menu-table',
-            title: 'Table',
-            subMenu: [
-              {
-                icon: '',
-                pageName: 'side-menu-regular-table',
-                title: 'Regular Table'
-              },
-              {
-                icon: '',
-                pageName: 'side-menu-tabulator',
-                title: 'Tabulator'
-              }
-            ]
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-overlay',
-            title: 'Overlay',
-            subMenu: [
-              {
-                icon: '',
-                pageName: 'side-menu-modal',
-                title: 'Modal'
-              },
-              {
-                icon: '',
-                pageName: 'side-menu-slide-over',
-                title: 'Slide Over'
-              },
-              {
-                icon: '',
-                pageName: 'side-menu-notification',
-                title: 'Notification'
-              }
-            ]
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-accordion',
-            title: 'Accordion'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-button',
-            title: 'Button'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-alert',
-            title: 'Alert'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-progress-bar',
-            title: 'Progress Bar'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-tooltip',
-            title: 'Tooltip'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-dropdown',
-            title: 'Dropdown'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-typography',
-            title: 'Typography'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-icon',
-            title: 'Icon'
-          },
-          {
-            icon: '',
-            pageName: 'side-menu-loading-icon',
-            title: 'Loading Icon'
-          }
-        ]
-      }
+      // {
+      //   icon: 'InboxIcon',
+      //   pageName: 'side-menu-components',
+      //   title: 'Components',
+      //   subMenu: [
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-table',
+      //       title: 'Table',
+      //       subMenu: [
+      //         {
+      //           icon: '',
+      //           pageName: 'side-menu-regular-table',
+      //           title: 'Regular Table'
+      //         },
+      //         {
+      //           icon: '',
+      //           pageName: 'side-menu-tabulator',
+      //           title: 'Tabulator'
+      //         }
+      //       ]
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-overlay',
+      //       title: 'Overlay',
+      //       subMenu: [
+      //         {
+      //           icon: '',
+      //           pageName: 'side-menu-modal',
+      //           title: 'Modal'
+      //         },
+      //         {
+      //           icon: '',
+      //           pageName: 'side-menu-slide-over',
+      //           title: 'Slide Over'
+      //         },
+      //         {
+      //           icon: '',
+      //           pageName: 'side-menu-notification',
+      //           title: 'Notification'
+      //         }
+      //       ]
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-accordion',
+      //       title: 'Accordion'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-button',
+      //       title: 'Button'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-alert',
+      //       title: 'Alert'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-progress-bar',
+      //       title: 'Progress Bar'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-tooltip',
+      //       title: 'Tooltip'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-dropdown',
+      //       title: 'Dropdown'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-typography',
+      //       title: 'Typography'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-icon',
+      //       title: 'Icon'
+      //     },
+      //     {
+      //       icon: '',
+      //       pageName: 'side-menu-loading-icon',
+      //       title: 'Loading Icon'
+      //     }
+      //   ]
+      // }
       // {
       //   icon: 'SidebarIcon',
       //   pageName: 'side-menu-forms',
@@ -411,13 +410,99 @@ const state = () => {
       //     }
       //   ]
       // }
+    ],
+    menu2: [
+      {
+        icon: 'ArrowLeftIcon',
+        pageName: 'proyectos',
+        title: 'REGRESAR'
+      },
+      // {
+      //   icon: 'FolderIcon',
+      //   pageName: 'proyecto',
+      //   // title: store.state.main.proyect ? store.state.main.proyect.name : ''
+      //   title: 'proyecto'
+      // },
+      'devider',
+      {
+        icon: 'FolderIcon',
+        pageName: 'proyecto',
+        title: 'PROYECTO',
+        subMenu: [
+          // {
+          //   icon: '',
+          //   pageName: 'side-menu-table',
+          //   title: 'Table',
+          //   subMenu: [
+          //     {
+          //       icon: '',
+          //       pageName: 'side-menu-regular-table',
+          //       title: 'Regular Table'
+          //     },
+          //     {
+          //       icon: '',
+          //       pageName: 'side-menu-tabulator',
+          //       title: 'Tabulator'
+          //     }
+          //   ]
+          // },
+          // {
+          //   icon: '',
+          //   pageName: 'side-menu-overlay',
+          //   title: 'Overlay',
+          //   subMenu: [
+          //     {
+          //       icon: '',
+          //       pageName: 'side-menu-modal',
+          //       title: 'Modal'
+          //     },
+          //     {
+          //       icon: '',
+          //       pageName: 'side-menu-slide-over',
+          //       title: 'Slide Over'
+          //     },
+          //     {
+          //       icon: '',
+          //       pageName: 'side-menu-notification',
+          //       title: 'Notification'
+          //     }
+          //   ]
+          // },
+          {
+            icon: 'GridIcon',
+            pageName: 'proyecto',
+            title: 'RESUMEN'
+          },
+          {
+            icon: '',
+            pageName: 'side-menu-button',
+            title: 'DISTRIBUCION GEOGRAFICA'
+          },
+          {
+            icon: '',
+            pageName: 'side-menu-alert',
+            title: 'PROGRAMACION PRESUPUESTARIA'
+          },
+          {
+            icon: '',
+            pageName: 'side-menu-progress-bar',
+            title: 'ASIGANACION PRESUPUESTARIA'
+          },
+          {
+            icon: '',
+            pageName: 'side-menu-tooltip',
+            title: 'INVERSION'
+          }
+        ]
+      }
     ]
   }
 }
 
 // getters
 const getters = {
-  menu: state => state.menu
+  menu: state => state.menu,
+  menu2: state => state.menu2
 }
 
 // actions

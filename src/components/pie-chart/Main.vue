@@ -22,12 +22,12 @@ export default defineComponent({
     const darkMode = computed(() => store.state.main.darkMode)
     const data = computed(() => {
       return {
-        labels: ['Html', 'Vuejs', 'Laravel'],
+        labels: ['Gasto', 'Inversion', 'Costo'],
         datasets: [
           {
             data: [15, 10, 65],
-            backgroundColor: ['#2BB6D0', '#E63b1f', '#203f90'],
-            hoverBackgroundColor: ['#2BB6D0', '#E63b1f', '#203f90'],
+            backgroundColor: ['#375dc0', '#190e49', '#203f90'],
+            hoverBackgroundColor: ['#375dc0', '#190e49', '#203f90'],
             borderWidth: 5,
             borderColor: darkMode.value ? '#303953' : '#fff'
           }

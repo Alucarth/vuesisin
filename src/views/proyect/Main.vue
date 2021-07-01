@@ -172,6 +172,7 @@ import xlsx from 'xlsx'
 import feather from 'feather-icons'
 import Tabulator from 'tabulator-tables'
 import { useRouter } from 'vue-router'
+import { useStore } from '@/store'
 
 export default defineComponent({
   setup() {
@@ -184,6 +185,7 @@ export default defineComponent({
       type: 'like',
       value: ''
     })
+    const store = useStore()
 
     const initTabulator = () => {
       tabulator.value = new Tabulator(tableRef.value, {
@@ -447,6 +449,7 @@ export default defineComponent({
     onMounted(() => {
       initTabulator()
       reInitOnResizeWindow()
+      store.dispatch('main/setProyect', null)
     })
 
     return {
