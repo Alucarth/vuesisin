@@ -61,26 +61,40 @@ import Chart from '../views/chart/Main.vue'
 import Slider from '../views/slider/Main.vue'
 import ImageZoom from '../views/image-zoom/Main.vue'
 
+/* sisin */
+import Proyect from '../views/proyect/Main.vue'
+import ProyectShow from '../views/proyect/Show.vue'
+
 const routes = [
   {
     path: '/',
     component: SideMenu,
     children: [
+      // {
+      //   path: '/',
+      //   name: 'side-menu-dashboard-overview-1',
+      //   component: DashboardOverview1
+      // },
       {
         path: '/',
-        name: 'side-menu-dashboard-overview-1',
-        component: DashboardOverview1
-      },
-      {
-        path: 'dashboard-overview-2',
         name: 'side-menu-dashboard-overview-2',
         component: DashboardOverview2
       },
       {
-        path: 'dashboard-overview-3',
-        name: 'side-menu-dashboard-overview-3',
-        component: DashboardOverview3
+        path: 'proyect',
+        name: 'proyectos',
+        component: Proyect
       },
+      {
+        path: 'proyect/:id',
+        name: 'proyecto',
+        component: ProyectShow
+      },
+      // {
+      //   path: 'dashboard-overview-3',
+      //   name: 'side-menu-dashboard-overview-3',
+      //   component: DashboardOverview3
+      // },
       {
         path: 'inbox',
         name: 'side-menu-inbox',

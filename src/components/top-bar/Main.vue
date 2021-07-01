@@ -12,15 +12,15 @@
           src="@/assets/images/logo.svg"
         />
         <span class="text-white text-lg ml-3">
-          Ice<span class="font-medium">wall</span>
+          SINSIN <span class="font-medium">2</span>
         </span>
       </a>
       <!-- END: Logo -->
       <!-- BEGIN: Breadcrumb -->
       <div class="-intro-x breadcrumb mr-auto">
-        <a href="">Application</a>
+        <!-- <a href="">Application</a>
         <ChevronRightIcon class="breadcrumb__icon" />
-        <a href="" class="breadcrumb--active">Dashboard</a>
+        <a href="" class="breadcrumb--active">Dashboard</a> -->
       </div>
       <!-- END: Breadcrumb -->
       <!-- BEGIN: Search -->
@@ -118,19 +118,19 @@
       <!-- BEGIN: Notifications -->
       <div class="intro-x dropdown mr-4 sm:mr-6">
         <div
-          class="dropdown-toggle notification notification--bullet cursor-pointer"
+          class="dropdown-toggle notification  cursor-pointer"
           role="button"
           aria-expanded="false"
         >
-          <BellIcon class="notification__icon dark:text-gray-300" />
+          <ShieldIcon class="notification__icon dark:text-gray-300" /> BOA
         </div>
         <div class="notification-content pt-2 dropdown-menu">
           <div
             class="notification-content__box dropdown-menu__content box dark:bg-dark-6"
           >
-            <div class="notification-content__title">Notifications</div>
+            <div class="notification-content__title">Seleccionar Empresa</div>
             <div
-              v-for="(faker, fakerKey) in $_.take($f(), 5)"
+              v-for="(faker, fakerKey) in $_.take($f(), 10)"
               :key="fakerKey"
               class="cursor-pointer relative flex items-center"
               :class="{ 'mt-5': fakerKey }"
@@ -150,9 +150,9 @@
                   <a href="javascript:;" class="font-medium truncate mr-5">{{
                     faker.users[0].name
                   }}</a>
-                  <div class="text-xs text-gray-500 ml-auto whitespace-nowrap">
+                  <!-- <div class="text-xs text-gray-500 ml-auto whitespace-nowrap">
                     {{ faker.times[0] }}
-                  </div>
+                  </div> -->
                 </div>
                 <div class="w-full truncate text-gray-600 mt-0.5">
                   {{ faker.news[0].shortContent }}
